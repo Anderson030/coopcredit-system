@@ -11,9 +11,9 @@ ___________
  1. Project structure
 
 
-coopcredit-system/
- ├── credit-application-service/
- └── risk-central-mock-service/
+<img width="282" height="73" alt="image" src="https://github.com/user-attachments/assets/1bcd4908-50fd-4894-a68e-8f212aba8cb6" />
+
+
 credit-application-service: main service. Manages affiliates and credit applications. Calls the risk service.
 
 risk-central-mock-service: fake risk engine. Returns a risk score using the document number.
