@@ -266,7 +266,8 @@ Create a new collection named CoopCredit.
 
 Add these requests:
 
-GET http://localhost:8080/actuator/health
+<img width="1242" height="786" alt="image" src="https://github.com/user-attachments/assets/10862921-907c-4cd6-ad8a-474168dd907d" />
+
 
 GET http://localhost:8081/actuator/health
 
