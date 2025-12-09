@@ -39,6 +39,7 @@ MapStruct
 Spring Boot Actuator
 
 Maven
+______________________________________________________________________
 
 3. Prerequisites
 You need these tools installed:
@@ -52,13 +53,15 @@ Git
 PostgreSQL database (local or cloud, for example Supabase)
 
 Postman or another REST client
+____________________________________________________________________
 
 4. Clone the repository
 bash
 Copiar código
 git clone https://github.com/Anderson030/coopcredit-system.git
 cd coopcredit-system
-5. Database configuration
+______________________________________________________________________________
+6. Database configuration
 The database is used by credit-application-service.
 
 Create a PostgreSQL database.
@@ -72,8 +75,7 @@ Copiar código
 credit-application-service/src/main/resources/application.yml
 Set your values:
 
-yaml
-Copiar código
+
 spring:
   datasource:
     url: jdbc:postgresql://YOUR_HOST:YOUR_PORT/YOUR_DATABASE
@@ -97,10 +99,9 @@ credit-application-service calls risk-central-mock-service.
 Check this property in:
 
 text
-Copiar código
+
 credit-application-service/src/main/resources/application.yml
-yaml
-Copiar código
+
 coopcredit:
   risk-central:
     base-url: http://localhost:8081
