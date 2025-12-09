@@ -8,10 +8,9 @@ Simple credit application system with two microservices:
 The goal is to simulate a real credit flow with hexagonal architecture and REST APIs.
 
 ___________
+ 1. Project structure
 
-## 1. Project structure
 
-```text
 coopcredit-system/
  ├── credit-application-service/
  └── risk-central-mock-service/
@@ -21,6 +20,7 @@ risk-central-mock-service: fake risk engine. Returns a risk score using the docu
 
 Both projects are Spring Boot applications with Maven.
 
+_______________________________________________________
 2. Technologies
 Java 17
 
